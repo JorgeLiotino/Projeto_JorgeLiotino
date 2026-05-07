@@ -4,9 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo $title ?></title>
+  <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
-  <p>Ola Mundo!</p>
+  <div class="container">
+
+    <h1>Bem vindo</h1>
+
+    <p>
+      Entre no sistema para acessar as funcionalidades.
+    </p>
+
+      <div class="buttons">
+        <a href="login" class="btn login">Login</a>
+
+        <a href="cadastro" class="btn cadastro">Cadastro</a>
+      </div>
+  </div>
 
   <?php
   
