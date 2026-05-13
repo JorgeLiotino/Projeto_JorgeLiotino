@@ -16,7 +16,7 @@
     </p>
 
       <div class="buttons">
-        <a href="login" class="btn login">Login</a>
+        <a href="login" class="btn login" >Login</a>
 
         <a href="cadastro" class="btn cadastro">Cadastro</a>
       </div>
@@ -29,6 +29,9 @@
   echo $arr[$i]."<br>"; 
 
   }
+
+  //echo "Nome: " . $pessoa->getNome();
+  //echo "<br>Idade: " . $pessoa->getIdade();
 
   ?>
 
